@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #a1d1e4db;
+  }
+  
+  .container {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .cat-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+
+  button {
+    background-color: #a1d1e4db; 
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  /* Change color when hovered */
+  button:hover {
+    background-color: #4c6faf; /* Darker green on hover */
+  }
+  
+  h1 {
+    color: #a1d1e4db;
+  }
